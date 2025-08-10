@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![Meowchi Banner](https://img.shields.io/badge/🐱_Meowchi-v0.4.1-FF6B6B?style=for-the-badge)
+  ![Meowchi Banner](https://img.shields.io/badge/🐱_Meowchi-v0.5.0-FF6B6B?style=for-the-badge)
   
   [![Downloads](https://img.shields.io/github/downloads/developtheweb/meowchi-releases/total?style=flat-square&label=Downloads&color=4ECDC4)](https://github.com/developtheweb/meowchi-releases/releases)
   [![Latest Release](https://img.shields.io/github/v/release/developtheweb/meowchi-releases?style=flat-square&label=Latest&color=95E1D3)](https://github.com/developtheweb/meowchi-releases/releases/latest)
@@ -48,6 +48,13 @@
 
 ## ✨ Features at a Glance
 
+### 🎯 NEW in v0.5.0: Viral Features
+- **Personality System** - 5 unique personalities affecting gameplay
+- **Streak Rewards** - Daily login, care, and activity streaks  
+- **Seasonal Events** - Limited-time themes with exclusive items
+- **Share Cards** - Generate and share your pet's stats
+- **Custom Help Menu** - Complete credits and keyboard shortcuts
+
 ### 🎮 Core Gameplay
 - **Virtual Pet System** - Feed, clean, and play with your digital cat
 - **Activity Tracking** - Earn XP through real keyboard/mouse usage
@@ -58,7 +65,7 @@
 - **25 Collectible Hats** - From common to legendary rarities
 - **Emoji or Sprite Mode** - Choose your visual style
 
-### 🌀 Chaos Mode (NEW!)
+### 🌀 Chaos Mode
 Inspired by Desktop Goose - Let Meowchi demand your attention!
 - **Mild** 😊 - Occasional movements and jumps
 - **Moderate** 😈 - Chase mouse, play dead, throw things  
@@ -109,18 +116,24 @@ graph LR
 
 ---
 
-## 📊 What's New in v0.4.1
+## 📊 What's New in v0.5.0
 
-### 🐛 Bug Fixes
-- ✅ Fixed input tracking counters not displaying
-- ✅ Fixed evolution journal not showing stats
-- ✅ Improved IPC communication reliability
+### 🎯 Major Features
+- ✨ **Personality System** - Choose from 5 unique personalities (Lazy, Energetic, Cuddly, Grumpy, Chaos)
+- 🔥 **Streak System** - Track login, care, and activity streaks with rewards
+- 🎃 **Seasonal Events** - Halloween, Christmas, Valentine's, Easter, Summer events
+- 📸 **Share Cards** - Create shareable images of your pet's stats
+- 📚 **Custom Help Menu** - Complete with credits to creator
 
-### 🎨 Previous Updates (v0.4.0)
-- Added 15 fully animated sprite characters
-- Implemented Desktop Goose-inspired chaos mode
-- Expanded hat collection from 9 to 25
-- Created dual-window system (sprite + panel)
+### 🔧 Improvements
+- ✅ ES6 module architecture with orchestrator pattern
+- ✅ Fixed sound system initialization
+- ✅ Fixed panel window sizing and layout
+- ✅ Better error handling and validation
+- ✅ Improved initialization sequence
+
+### 🎨 Previous Updates (v0.4.1)
+- Fixed input tracking and evolution journal display issues
 
 [View Full Changelog →](https://github.com/developtheweb/meowchi-releases/releases)
 
